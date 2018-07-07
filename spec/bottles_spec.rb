@@ -30,3 +30,13 @@ RSpec.describe Bottles, "next row" do
     end
   end
 end
+
+RSpec.describe Bottles, "next row" do
+  context "runs new verse" do
+    it "should return right text" do
+
+      expect(Bottles.new.verse(1)).to eq "1 bottle of beer on the wall, 1 bottle of beer.
+      Take it down and pass it around, no more bottles of beer on the wall."
+    end
+  end
+end
