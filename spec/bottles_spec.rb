@@ -11,15 +11,11 @@ RSpec.describe Bottles, 'next row' do
 
 
 
-
-
     it 'should return right text with amount=98' do
 
       expect(Bottles.new.verse(98)).to eq '98 bottles of beer on the wall, 98 bottles of beer.
       Take one down and pass it around, 97 bottles of beer on the wall.'
     end
-
-
 
 
     it 'should return right text with amount=97' do
@@ -29,17 +25,11 @@ RSpec.describe Bottles, 'next row' do
     end
 
 
-
-
-
     it 'should return right text with amount=1' do
 
       expect(Bottles.new.verse(1)).to eq '1 bottle of beer on the wall, 1 bottle of beer.
       Take it down and pass it around, no more bottles of beer on the wall.'
     end
-
-
-
 
 
     it 'should return right text with amount=0' do

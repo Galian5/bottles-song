@@ -6,8 +6,7 @@ class Bottles
 
     elsif amount == 0
       'No more bottles of beer on the wall, no more bottles of beer.
- Go to the store and buy some more, 99 bottles of beer on the wall'
-
+ Go to the store and buy some more, 99 bottles of beer on the wall.'
 
     else
       "#{amount} bottles of beer on the wall, #{amount} bottles of beer.
